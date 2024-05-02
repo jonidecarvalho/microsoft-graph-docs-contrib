@@ -14,6 +14,9 @@ Namespace: microsoft.graph
 Get the posts of the specified thread. You can specify both the parent conversation and the thread, or,
 you can specify the thread without referencing the parent conversation.
 
+> [!NOTE]
+> This endpoint is limited to a max of 100 items (as explained in: https://o365exchange.visualstudio.com/DefaultCollection/O365%20Groups/_workitems/edit/4479393 ).
+
 [!INCLUDE [national-cloud-support](../../includes/all-clouds.md)]
 
 ## Permissions
